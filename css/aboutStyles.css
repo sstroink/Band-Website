@@ -1,0 +1,90 @@
+/*
+    About Page Styles
+
+    Author: Sophie Stroink
+    Date: January 2018
+    
+    Filename: aboutStyles.css
+
+
+*/
+
+/*Figure and paragraph*/
+figure,p{
+    display: block;
+    width: 900px; 
+	position: relative;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+/* Contextual Selector e >f */
+/*Image styles*/
+figure > img{
+    margin: 10px; 
+    
+}
+
+/*Paragraph Styles*/
+p{
+    text-align: justify;
+    text-indent: 5px; /*Use of text-indent*/
+}
+
+/*Paragrpah link styles*/
+p>a{
+    text-decoration: none;  
+}
+
+/*Link pseudo class*/
+p>a:link{
+    color: darkblue;
+    
+}
+
+/*visited pseudo class*/
+P>a:visited{
+    color: purple;
+}
+
+/* drop cap*/
+p:first-of-type:first-letter {
+    color: hsla(69,27.7%,27.6%,0.8); /* HSLA*/
+    float: left;
+    font-family: inherit;
+    font-size: 50px;
+    line-height: 40px;
+    padding-right: 2px;
+    padding-left: 3px;
+}
+
+/*Figure Caption Styles*/
+figcaption{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic; /*Use of font-style*/
+    color: #2f3031;
+    position: relative;
+    font-size: 90%;
+}
+
+@media screen and (max-width: 501px){
+    p{
+        width: 300px;
+    }
+    
+    img{
+        height: 70px;
+    }
+    
+    figure{
+        margin-left: 30px
+    }
+    
+    figcaption{
+        font-size: 12px;
+    }
+}
+
+
+

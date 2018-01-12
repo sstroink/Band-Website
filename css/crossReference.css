@@ -1,0 +1,33 @@
+/*  Author: Sophie Stroink
+    Date: December 2017
+
+    Filename: crossReference.css
+
+    supporting files: crossReference.html
+
+
+*/
+
+/*Cross Reference Styles */
+#cross_ref{
+    clear: left; 
+    float: left; 
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 70px;
+    font-family: "Helvetica"; 
+   
+}
+#cross_ref h1{
+    font-size: 40px;;
+    text-align: center;
+}
+
+#cross_ref h2{
+    font-size: 20px;
+    margin: 5px; 
+}
+
+ol >li{
+    font-weight: bold;
+}

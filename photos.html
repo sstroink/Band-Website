@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        COMP 2681 Final Project
+
+        Spider of the Embodied Guava Photo Page
+        Author: Sophie Stroink
+        Date:   January, 12, 2018
+
+        Filename:         photo.htm
+        Supporting files: guavaSmall.png, styles.css, fb_icon.png, twitter_icon.png,
+        youtube_icon.png, photoStyles.css, band1-6.jpg
+        -->
+
+        <meta charset="UTF-8" />
+        <meta name="author" content="Spider of the Embodied Guava" />
+		<meta name="description" content="Victoria based alt rock band"/>
+		<meta name="keywords" content="music, band, Victoria, rock, alternative, experimental" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>Photos</title>
+        <script src="js/modernizr-1.5.js"></script>
+        
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        <link href="css/photoStyles.css" rel="stylesheet" type="text/css" />
+       
+    </head>
+    <body>
+        <header>
+            <nav class="navigation-bar">
+                <a href="home.html"><img class="logo" src="img/guavaSmall.png" alt="Spider of the Embodied Guava Logo"/></a>
+                <a href="home.html" title="Home">Home</a>
+                <a href="about.html" title="About"> About </a>
+                <a href="tour.html" title="Tour Dates"> Tour Dates </a>
+                <a href="photos.html" class="active" title="Photos"> Photos</a>
+                <a href="contact.html" title="Contact"> Contact</a>
+                <a href ="crossReference.html%20" title="Cross Reference"> Cross Ref </a>
+                <!-- System date to go in header - wrapped in span so can style -->
+                <span>
+                    <script class="date" type="text/javascript" >
+                            var date = new Date();
+                            document.write(date.toDateString());
+                    </script>
+                </span>
+            </nav>
+            
+        </header>
+        <section>
+            <br />
+            <h2> Photos from our 2017 cross canada tour</h2>
+        
+            <div class="slider">
+                    
+                   <!--Shows first image on page load-->
+	               <input type="radio" name="slide_switch" id="id1" checked="checked"/>
+	               <label for="id1">
+		              <img src="img/bandPhotos/band1.jpeg" width="100"/>
+	               </label>
+                
+	               <img src="img/bandPhotos/band1.jpeg" width="600" height="350px"/>
+	
+	       
+	               <input type="radio" name="slide_switch" id="id2"/>
+	               <label for="id2">
+		              <img src="img/bandPhotos/band2.jpg" height="75"/>
+	               </label>
+                
+	               <img src="img/bandPhotos/band2.jpg" width="600" height="350px"/>
+	
+	               <input type="radio" name="slide_switch" id="id3"/>
+	               <label for="id3">
+		              <img src="img/bandPhotos/band3.jpg" width="100"/>
+                    </label>
+	               <img src="img/bandPhotos/band3.jpg" width="600" height="350px"/>
+	
+	               <input type="radio" name="slide_switch" id="id4"/>
+	               <label for="id4">
+		              <img src="img/bandPhotos/band4.jpg" width="100"/>
+	               </label>
+	               <img src="img/bandPhotos/band4.jpg" width="600" height="350px"/>
+	
+	               <input type="radio" name="slide_switch" id="id5"/>
+	               <label for="id5">
+		                  <img src="img/bandPhotos/band5.jpg" width="100"/>
+	               </label>
+	               <img src="img/bandPhotos/band5.jpg" width="600" height="350px"/>
+                
+                   <input type="radio" name="slide_switch" id="id6"/>
+	               <label for="id6">
+		                  <img src="img/bandPhotos/band6.jpg" width="100"/>
+	               </label>
+	               <img src="img/bandPhotos/band6.jpg" width="600" height="350px"/>
+            </div>
+        
+        </section>
+        <footer>
+            <div id="social">
+                <div id ="copyright"> 
+                    Spider of the Embodied Guava &#169; 2018 
+                </div>
+                
+                <div id="icons">
+                    <a href="#"><img src="img/fb_icon.png" alt="facebook icon" width="30px" height="30px"></a>
+                    <a href="https://www.youtube.com/channel/UC2iFnsFxdD0d4XimduqSgiQ"><img src="img/youtube_icon.png" alt="youtube icon" width="30px" height="30px"></a>
+                    <a href="#"><img src="img/twitter_icon.png" alt="twitter" width="30px" height="30px"></a>
+                </div>
+                
+                <div id ="updated"> 
+                    Last updated January 2018 
+                </div>
+        
+            </div>
+
+        </footer>
+    
+    
+    
+    </body>
+
+
+</html>

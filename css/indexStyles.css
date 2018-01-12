@@ -1,0 +1,89 @@
+/*
+    Author: Sophie Stroink
+    Date: January 12 2018
+
+    Filename: indexStyles.css
+
+    Supporting files: guavaBackgroundIndex.jpg
+    
+    Based off of the tutorial: https://www.youtube.com/watch?v=Y5SHm53WFEk by Drew Ryan
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/*Landing page styles*/
+/*Reset style - Full size picture*/
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/*Section Styles*/
+section{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url("../img/guavaBackgroundIndex.jpg") no-repeat 50% 50%;
+    background-origin: border-box; /*Background-origin*/ 
+    display: table;
+    top: 0;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    background-attachment: fixed; 
+}
+
+section .inner{
+    display: table-cell; 
+    vertical-align: middle;
+    width: 100%; 
+    max-width: none;
+    
+}
+
+.content{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* Button Styles*/
+.btn {
+    border-radius: 9px; /*Rounded corners*/
+    font-family: 'Oswald', sans-serif; /* font-family*/
+    color: #e6bfc7;
+    font-size: 200%; /*font-size*/
+    font-weight: normal; /* font-weight*/
+    padding: 10px 20px;
+    border: solid #e6bfc7 3px; /*Border Styles, outline style*/
+    text-transform: uppercase; /* text-transform*/
+    text-decoration: none;
+    display: table-cell; 
+    position: absolute;
+    top: 80%;
+    left: 45%;
+
+}
+
+/*Button cover - green and adds border*/
+.btn:hover{
+    color: #363831;
+    border: solid #363831 3px; /*Border Style, outline styles*/
+}
+
+/*Mobile Styles*/
+@media screen and (max-width: 768px){
+    .btn{
+        font-size: 100%; 
+        padding: 7px 15px; 
+     
+    }   
+}

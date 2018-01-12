@@ -1,0 +1,69 @@
+/*
+    Tour page styles
+
+    Author: Sophie Stroink
+    Date: January 2018
+
+    Filename: tourStyles.css
+
+
+*/
+
+/* Tour styles*/
+
+#tour{
+    margin-top: 5em;
+    width: 60%;
+    margin-left: 20%;
+    /*margin: 10% 10% 0 10%;
+    padding-left: 10%;
+    padding-right: 10%;*/
+     
+    
+}
+
+/* unordered list styles*/
+#tour ul{
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+    color: #2f3031;
+    text-align: center; 
+    text-transform: capitalize; /*Text Transform*/
+    padding: 1em;
+    background: rgb(84,90,51);
+    background: rgba(84,90,51,0.8);
+  
+}
+
+/*Link styles*/
+#tour a:link{
+    color: blue;
+}
+
+/* Link hover styles*/
+/* hover pseudo class*/
+#tour a:hover{
+    text-decoration: none;
+    color: #2f3031;
+}
+
+/*Visited pseudo class*/
+#tour a:visited{
+    color: purple;
+}
+
+/* Mobile Styles*/
+@media screen and (max-width: 501px){
+    #tour{
+        height: 400px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    #tour ul{
+        font-size: 12px;
+        line-height: 3;
+    }
+    
+    
+}

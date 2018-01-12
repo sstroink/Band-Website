@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        COMP 2681 Final Project
+
+        Spider of the Embodied Guava Contact Page
+        Author: Sophie Stroink
+        Date:   January, 2018
+
+        Filename:         crossReference.htm
+        Supporting files: guavaSmall.png, crossReference.css, fb_icon.png, twitter_icon.png,
+        youtube_icon.png
+        -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Spider of the Embodied Guava" />
+		<meta name="description" content="Victoira based alt rock band" />
+		<meta name="keywords" content="music, band, Victoria, rock, alternative, experimental" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+
+        <title>Cross Reference Page</title>
+        <script src="js/modernizr-1.5.js"></script>
+        
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        <link href="css/crossReference.css" rel="stylesheet" type="text/css"/>
+    
+    </head>
+    <body>
+        <header>
+            <nav class="navigation-bar">
+                <a href="home"><img class="logo" src="img/guavaSmall.png" alt="Spider of the Embodied Guava Logo"/></a>
+                <a href="home.html" title="Home">Home</a>
+                <a href="about.html" title="About"> About </a>
+                <a href="tour.html" title="Tour Dates"> Tour Dates </a>
+                <a href="photos.html" title="Photos"> Photos</a>
+                <a href="contact.html" title="Contact"> Contact</a>
+                <a href ="crossReference.html%20" class="active" title="Cross Reference"> Cross Ref </a>
+                <!-- System date to go in header -->
+                <span>
+                    <script class="date" type="text/javascript" >
+                            var date = new Date();
+                            document.write(date.toDateString());
+                    </script>
+                </span>
+            </nav>
+           
+    
+        </header>
+        
+        <section id= "cross_ref">
+            <hgroup>
+                <h1> Cross Reference Page</h1>
+                <h2> (For marking purposes - to be removed)</h2>
+            </hgroup>
+           
+            <ol type="none">
+                <li class ="main"> Nine websites in total are required from 9 different domains (2.1) </li><br />
+                    <ul>
+                        <li>Websites: Similar to your site, re: similar in buisness nature</li>
+                        <!--Make into an ordered list for each link??? -->
+                            <dl>
+                                <dt><a href="http://www.hothotheat.com/"> Hot Hot Heat - Band Website </a></dt>
+                                <dd>For a local Victoria band their site gives of a really professional vibe. I really like the full size photo background (from the cover art of their latest album). The endless scroll feature is very modern and complements the overall simplicity of their site, but I find it hard to navigate on pages that are quite long like the music page. ** too long?</dd>
+                                <dt><a href="https://www.everythingnow.com/"> Arcade Fire - Band Website </a></dt>
+                                <dd>This website has a lot going on and definitely suits the calibre of this band. It is really flashy, busy and has a very cool interactive element (moving around the mini-webpages that act as the navigation) which I think works for a more established band but might be a bit over the top for a local band trying to get their name out. </dd>
+                                <dt><a href="http://www.matthewgood.org/"> Matthew Good - Band Website </a></dt>
+                                <dd>I find the navigation being a the bottom of this website very different and aesthetically pleasing, it allows for the large photo slider to be the foucs of the main page. Overall this website is very simple and gets the job done, but lacks a bit of personality design wise.</dd>
+                                
+                            </dl>
+                        <li>Websites: Downloadable Sites </li>
+                            <dl>
+                                <dt><a href="https://fonts.google.com"> Google Fonts </a></dt>
+                                <dd>Google fonts is a great place to find fonts to import into your css styles and can add a professional look to headers without having to get a graphic designer involved.</dd>
+                                <dt><a href="https://creativecommons.org/about/"> Creative Commons </a></dt>
+                                <dd>Creative commons is a place where artists can share their photos, videos, music etc. that they have deemed available to the public for legal use of sharing, repurposing, and remixing. </dd>
+                                <dt><a href="https://pixabay.com/en/photos/?cat=backgrounds"> Pixabay </a></dt>
+                                <dd> A website specifically for free photos/textures that is good for finding background images for a website.</dd>
+                                
+                            </dl>
+                        <li>Websites: Technical Information </li>
+                            <dl>
+                                <dt><a href="https://www.w3schools.com/default.asp"> W3Schools </a></dt>
+                                <dd>Has all of the information and documentation on HTML, CSS, Javascript and many other web based languages. </dd>
+                                <dt><a href="https://www.youtube.com/user/DrewOnCue"> YouTube Channel - Drew Ryan </a></dt>
+                                <dd>This channel, particularily the tutorial on landing pages, helped guide me through the design of my landing page. </dd>
+                                <dt><a href="https://stackoverflow.com/"> Stackoverflow</a></dt>
+                                <dd>Stackoverflow is a newsgroup style discussion forum where people can post questions and verified users post helpful hints. If you have a question someone has likely already asked it on here.</dd>
+                                
+                            </dl>
+                
+                    </ul>
+                <li class="main"> Website Design </li>
+                    <ol type="a">
+                        <li> HTML5 Minimum Requirements</li>
+                            <ol type="1">
+                                <dl>
+                                    <li><dt>Implement HTML5 structural elements, including header groups to group html headers:</dt></li>
+                                    <dd>Every .html file in this project uses &lt; header &gt;, &lt; footer &gt;, and &lt; section &gt; groups. Go to "view source" on any page to see these in the code. <a href="home.html"> Link </a></dd><br />
+                                    
+                                    <li><dt>Use of anchor references:</dt></li>
+								    <dd>The navigation at the top of every page indluces anchor, &lt;a&gt;, references. Go to "view source" on any page to see these in the code.<a href="home.html"> Link </a></dd><br />
+							
+								    <li><dt>Links to appropriate resources, additional info pertaining to the nature of the business:</dt></li>
+								    <dd>The tour page features links to the venue websites<a href="tour.html"> Link </a></dd><br />
+							
+								    <li><dt>Use of hotspots, image maps or bookmarks to skip to a location on a given page, as well as to another page on your site and to an external related web site(s):</dt></li>
+								    <dd>At the top left of the navigation bar, the guava logo links to home page. At the footer of each page the "youtube" icon links to the bands youtube page.Go to "view source" on any page to see these in the code.<a href="home.html"> Link </a></dd><br />
+							
+								    <li><dt>Insert inline images and line breaks:</dt></li>
+								    <dd>The <a href="photos.html">"photos"</a>and <a href="about.html">"about"</a> pages feature inline images and the "about" page also features line breaks. Go to "view source" on the page to see these in the code. </dd><br />
+							
+								    <li><dt>Mark page headings, paragraphs, block quotes and addresses appropriately:</dt></li>
+								    <dd>Each page uses at least one &lt;h&gt; tag. The <a href="home.html">"home"</a>, <a href="#">"About"</a>, and <a href="contact.html">"contact"</a> pages feature &lt;p&gt; tags.Go to "view source" on the page to see these in the code. </dd><br />
+							
+								    <li><dt>Create appropriate ordered, unordered and description lists:</dt></li>
+								    <dd>This cross reference page uses ordered &lt;ol&gt; and description &lt;dl&gt; lists. The <a href="tour.html">"tour"</a> page uses unordered &lt;ul&gt; lists. Go to "view source" on the page to see these in the code.</dd><br />
+							
+								    <li><dt>Insert special characters from extended character sets:</dt></li>
+								    <dd>The footer of any page contains a copyright &copy; character. Go to "view source" on the page to see these in the code.<a href="home.html"> Link </a></dd><br />
+							
+								    <li><dt>Implement HTML5 meta character set, meta name as author and content with the business name, meta name as description and content describing the nature of the business in one short simple sentence, meta name as keywords and content with at least five keywords that would describe the nature of the business in words: </dt></li>
+                                    <dd>Each page contains this at the top of the &lt;head&gt; tag. Go to "view source" on the page to see these in the code.<a href="home.html"> Link </a></dd><br />
+                                    
+                                    <li><dt>Your home page must have a footer when the web site was last updated or modified:</dt></li>
+                                    <dd>The home page and every page contains last update information. <a href="home.html">Link</a></dd><br />
+                                </dl>
+                            
+                            </ol>
+                        <li>Cascading Style Sheets Minimum Requirements Features</li>
+                            <ol type="1">
+                                <dl>
+                                    <li><dt>Create one example on your home page that would show that you know how to style a single element using an inline style for your first h1 heading on your home page:</dt></li>
+								    <dd> The h1 heading has inline styles. Go to "view source" on the page to see these in the code.<a href="home.html"> Link </a></dd><br />
+								
+								    <li><dt>Style your home page using embedded style sheet:</dt></li>
+								    <dd>The home page has embedded styles. Go to "view source" on the page to see these in the code.<a href="home.html"> Link </a></dd><br />
+							
+								    <li><dt>For the remaining pages create styles using external CSS file(s):</dt></li>
+								    <dd><a href="css/styles.css"> main styles </a>, <a href="css/indexStyles.css"> index(landing) styles </a>, <a href="css/aboutStyles.css"> about styles </a>, <a href="css/tour.html"> tour styles </a>, <a href="css/crossReference.css"> crossRef styles</a>, <a href="css/tourStyles.css"> tour styles</a>, and <a href="css/photoStyles.css"> photo styles</a></dd><br />
+								
+								    <li><dt>Use CSS3 to format the appearance of paragraphs, lists, headers, background images, tables, forms. Use the following CSS3 contextual selectors (e1, e2, e3; e f; e > f; e + f in your web pages: </dt></li>
+								    <dd>use of<a href="css/formStyles.css"> e1,e2,e3 </a> selector in formStyles.css under validation styles, use of <a href="css/styles.css"> e &gt; f</a> under nagivation styles, use of <a href="css/styles.css"> e f</a> selector under footer styles, use of <a href="css/photoStyles.css"> e + f </a> selector at the bottom of the file </dd><br />
+								
+								    <li><dt>Use of CSS3 styles for color (RGBA &amp; HSLA) and show one instance of progressive enhancement for colors:</dt></li>
+                                    <dd>RGBA with progressive enhancement is used for almost all background colours using the green colour. See an example in the footer section of the<a href="css/styles.css"> styles.css </a> code. HSLA can be seen in uses of drop cap like in the about page paragraph, see <a href="css/aboutStyles.css">about styles</a> under drop cap</dd><br />
+								
+								    <li><dt>Use of CSS3 styles to format the appearance of web pages text, including at least the following: font-family, font-size, kerning, tracking, leading, text-indent, font-weight, font-style, text-decoration, text-transform and font-variant:</dt></li>
+								    <dd>Font-family, font-size, font-weight and text-transform are seen throughout various style sheets, for a specific example see <a href="css/indexStyles.css"> index styles </a> under button styles. Leading and text-decoration can be seen under navigation, and tracking can be seen under footer styles, kerning/font-variant can be seen under h2 all in <a href="css/styles.css"> styles.css</a>. Text-indent can be seen under paragraph styles in <a href="css/aboutStyles.css">about styles.</a>Font-style can be seen under figcaption styles in <a href="css/aboutStyles.css">about styles</a>. </dd><br />
+								
+								    <li><dt>Use of the following pseudo-classes to highlight hyperlinks states of link, visited, active, hover; focus pseudo-classes and one appropriate structural pseudo-class:</dt></li>
+                                    <dd>The navigation links use :hover and :active see <a href="css/styles.css"> styles.css </a>. The form validation uses :focus see <a href="css/formStyles.css">formStyles.css</a>. The hyperlinks on the about and tour page use the :link and :visited classes, see <a href="css/aboutStyles.css">aboutStyles.css</a> or <a href="css/tourStyles.css">tourStyles.css</a>.</dd><br />
+							
+								    <li><dt>Use of CSS3 background styles (background size, background-clip, background-origin, padding, margins, borders, use of an appropriate border style, use of rounded corners and the use of an outline style:</dt></li>
+                                    <dd>Background-size, rounded corners, border, border styles, background-origin and outline style can be seen in <a href="css/indexStyles.css"> index styles. </a> Background-clip is used on the <a href="css/photoStyles.css">photo page</a> for the slider background. Padding and margins are used on every page, for several examples see this <a href="css/styles.css"> style sheet</a> </dd><br />
+								
+								    <li><dt>Your home page should have a drop cap created with CSS3:</dt></li>
+                                    <dd>See a drop cap on both the home page(embedded) and about page under dropcap in the css<a href="css/aboutStyles.css"> code </a></dd><br />
+								
+								    <li><dt>Define document content with the class and id properties and create styles for them:</dt></li>
+								    <dd>Most documents contain both class and id properties. See the header and footer of the <a href="home.html"> home page </a>for a concrete example (view source)</dd> <br />
+							
+								    <li><dt>Mark document content with the &lt;div&gt; and &lt;span&gt; tags and create styles for them:</dt></li>
+                                    <dd>All document pages are marked with div and span. See the home page <a href="home.html"> code </a> for specific instances</dd><br />
+							
+								    <li><dt>Use cascading styles to control page layout by using float attribute and positioning:</dt></li>
+								    <dd>See the from styles for examples of float and positioning <a href="css/formStyles.css"> Link </a></dd><br />
+								
+								    <li><dt>Use of a Web Font:</dt></li>
+								    <dd>The h1 heading uses a web font seen in the embedded style sheet on the home.html <a href="home.html"> code. </a>Go to "view source" on the page to see these in the code.</dd><br />
+								
+								    <li><dt>Use of CSS3 text and box shadows:</dt></li>
+                                    <dd>See text and box shadow on the home page in the h1 heading and on the embedded video <a href="home.html"> (embedded styles) </a>. View source to see. </dd><br />
+								
+								    <li><dt>Use of CSS3 transform rotate feature:</dt></li>
+								    <dd>The guava logo in the nav bar and the social media icons in the footer rotate on hover, seen in the styles under logo styles  <a href="css/styles.css"> here </a></dd><br />
+							
+								    <li><dt>Use of CSS3 opacity applied to two images to appear semi-transparent:</dt></li>
+								    <dd>The Guava logo and the social media logo icons use opacity styles. See logo and footer in the<a href="css/styles.css"> css file </a></dd>
+                                </dl>
+                            </ol>
+                        
+                        <li>Web Form Required Features</li>
+                            <ol type="1">
+                                <dl>
+                                    <li><dt>Use of appropriate form elements including some of the new HTML5 form elements:</dt></li>
+								    <dd>See new HTML5 element styles are seen throughout the form <a href="contact.html"> code </a></dd><br />
+								
+								    <li><dt>Apply appropriate styles to Web Forms:</dt></li>
+								    <dd>See the <a href="css/formStyles.css"> form styles </a></dd><br />
+                                    
+								    <li><dt>Validate form data using the required attribute:</dt></li>
+								    <dd>See required="required" used in all 3 form elements <a href="contact.html"> Link </a></dd>
+                                    
+								    <li><dt>Apply inline form validation by using the focus pseudo-class to appropriate form elements:</dt></li>
+								    <dd>See under validation styles in the css <a href="css/formStyles.css"> file </a></dd><br />
+                                </dl>
+                        
+                            </ol>
+                        <li>Multimedia Minimum Required Features</li>
+                            <ol type="1">
+                                <dl>
+                                    <li><dt>Use of object tag to enhance a web page with sound and video.</dt></li>
+                                    <dd>Youtube video is embedded in the home <a href="home.html">page</a></dd>
+                                </dl>
+                            </ol>
+                        <li> Creating a Well-Formed, Valid Document</li>
+                            <ol type="1">
+                                <dl>
+                                    <li><dt>Your home page should be well formed, valid web page under either transitional, strict XHTML DTD or HTML5.</dt></li>
+                                    <dd>The home page is valid under HTML5(Experimental) by W3Schools. At this time there is no icon to display when your webpage is well formed. To check please insert the "home.html" file into the <a href="https://validator.w3.org/#validate_by_uri+with_options">validation site</a> using the HTML(Experimental) option</dd>
+                                </dl>
+                            </ol>
+                        <li> JavaScript Minimum Required Features</li>
+                            <ol type="1">
+                                <dl>
+                                    <li><dt>Use of variables, arithmetic, comparison and logical operators, subroutines, functions, array, conditional statements, conditional operators, running time commands.</dt></li>
+								    <dd>All of these JavaScript features are used in the validation file <a href="js/formValidate.js"> formValidate.js. </a></dd><br >
+                                    
+								    <li><dt>Display system date on the home page of the web site.</dt></li>
+								    <dd>Each page(excluding the enter page) has a script function in the &lt;header&gt; that displays the system date. <a href="home.html"> View source to see. </a></dd><br />
+                                    
+								    <li><dt>Validating form input by using appropriate JavaScript functions.</dt></li>
+								    <dd>See the validation function in <a href="js/formValidate.js"> formValidate.js</a></dd><br />
+                                    
+								    <li><dt>Use of JavaScript alerts for validation purposes.</dt></li>
+								    <dd>See the validation function <a href="js/formValidate.js"> formValidate.js</a>. There are three instances of JavaScript alerts. Two during validation and one on submit.</dd><br />
+
+                                </dl>
+                                
+                            </ol>
+                
+                    </ol>
+            
+            </ol>
+        
+        </section>
+        <footer>
+            <div id="social">
+                <div id ="copyright"> 
+                    Spider of the Embodied Guava &#169; 2018 
+                </div>
+                
+                <div id="icons">
+                    <a href="#"><img src="img/fb_icon.png" alt="facebook icon" width="30px" height="30px"></a>
+                    <a href="#"><img src="img/youtube_icon.png" alt="youtube icon" width="30px" height="30px"></a>
+                    <a href="#"><img src="img/twitter_icon.png" alt="twitter" width="30px" height="30px"></a>
+                </div>
+                
+                <div id ="updated"> 
+                    Last updated January 2018 
+                </div>
+        
+            </div>
+
+        </footer>
+    
+    </body>
+
+
+</html> 

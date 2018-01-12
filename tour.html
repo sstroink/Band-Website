@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        COMP 2681 Final Project
+
+        Spider of the Embodied Guava Tour Dates Page
+        Author: Sophie Stroink
+        Date:   January, 12, 2018
+
+        Filename:         tour.htm
+        Supporting files: guavaSmall.png, styles.css, fb_icon.png, twitter_icon.png,
+        youtube_icon.png, styles.css, tourStyles.css
+        -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Spider of the Embodied Guava" />
+		<meta name="description" content="Victoria based alt rock band" />
+		<meta name="keywords" content="music, band, Victoria, rock, alternative, experimental" />
+        
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        
+        <title>SotEG Tour Dates</title>
+        <script src="js/modernizr-1.5.js"></script>
+        
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        <link href="css/tourStyles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <nav class="navigation-bar">
+                <a href="home.html"><img class="logo" src="img/guavaSmall.png" alt="Spider of the Embodied Guava Logo"/></a>
+                <a href="home.html" title="Home">Home</a>
+                <a href="about.html" title="About"> About </a>
+                <a href="tour.html" class="active" title="Tour Dates"> Tour Dates </a>
+                <a href="photos.html" title="Photos"> Photos</a>
+                <a href="contact.html" title="Contact"> Contact</a>
+                <a href ="crossReference.html%20" title="Cross Reference"> Cross Ref </a>
+                <!-- System date to go in header -->
+                <span>
+                    <script class="date" type="text/javascript" >
+                            var date = new Date();
+                            document.write(date.toDateString());
+                    </script>
+                </span>
+            </nav>
+           
+        </header>
+        <section>
+            <br />
+            <h2>Upcoming tour dates</h2>
+            <div id="tour">
+                
+                <ul>
+                    <!--Links to appropriate webpages-->
+                    <li> victoria - October 11, 2018 &#9679; <a href="http://sofmc.com/">Save-on-Foods Arena </a></li>
+                    <li> vancouver - October 12, 2018 &#9679; <a href="https://rogersarena.com">Rogers Arena</a></li> 
+                    <li> calgary - October 13, 2018 &#9679; <a href="#">Calgary Arena</a></li>
+                    <li> edmonton - October 14, 2018 &#9679; <a href="#">Edmonton Arena</a></li>
+                    <li> saskatoon - October 15, 2018 &#9679; <a href="#">Saskatoon Arena</a></li>
+                    <li> winnipeg - October 16, 2018 &#9679; <a href="#">Winnipeg Arena</a></li>
+                    <li> toronto - October 18, 2018 &#9679; <a href="#">Toronto Arena</a></li>
+                    <li> ottawa - October 19, 2018 &#9679; <a href="#">Ottawa Arena</a></li>
+                    <li> quebec City - October 21, 2018 &#9679; <a href="#">Quebec Arena</a></li>
+                </ul> 
+            </div>
+
+        
+        </section>
+        <footer>
+            <div id="social">
+                <div id ="copyright"> 
+                    Spider of the Embodied Guava &#169; 2018 
+                </div>
+                
+                <div id="icons">
+                    <a href="#"><img src="img/fb_icon.png" alt="facebook icon" width="30px" height="30px"></a>
+                    <a href="https://www.youtube.com/channel/UC2iFnsFxdD0d4XimduqSgiQ"><img src="img/youtube_icon.png" alt="youtube icon" width="30px" height="30px"></a>
+                    <a href="#"><img src="img/twitter_icon.png" alt="twitter" width="30px" height="30px"></a>
+                </div>
+                
+                <div id ="updated"> 
+                    Last updated January 2018 
+                </div>
+        
+            </div>
+
+        </footer>
+    </body>
+</html>

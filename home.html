@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        COMP 2681 Final Project
+
+        Spider of the Embodied Guava Home Page
+        Author: Sophie Stroink
+        Date:   January, 2018
+
+        Filename:         home.htm
+        Supporting files: guavaSmall.png, styles.css, styles.css, fb_icon.png, twitter_icon.png,
+        youtube_icon.png, 
+        -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Spider of the Embodied Guava" />
+		<meta name="description" content="Victoria based alt rock band"/>
+		<meta name="keywords" content="music, band, Victoria, rock, alternative, experimental" />
+        
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        
+        <title>SotEG Home Page</title>
+        <script src="js/modernizr-1.5.js"></script>
+        
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        
+        <!--Home Page styled using embedded style sheet-->
+        <style>
+            /*Use of Web Font*/
+            @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+           
+            /*H1 Styles*/
+            h1{
+                font-family: 'Permanent Marker', cursive; 
+                text-shadow: 2px 2px grey; /*text shadow*/
+                font-size: 60px;
+            }
+            
+            /*Paragraph styles*/
+            p{
+                margin-top: 50px;
+            }
+            
+            /*Drop Cap, Pseudo-elements, */
+            p:first-of-type:first-letter {
+                color: hsla(69,27.7%,27.6%,0.8); /* HSLA*/
+                font-family: inherit;
+                font-size: 30px;
+                line-height: 40px;
+                padding-top: 6px;
+                padding-right: 2px;
+                padding-left: 3px;
+               
+}
+            /* Embedded Video Styles*/
+            object {
+                margin-left: auto;
+                margin-right: auto;
+                display: block; 
+                margin-top: 0.2em;
+                margin-bottom: 5px;
+                align-items: center;
+                box-shadow: 5px 5px rgb(84,90,51); /*Box Shadow*/
+                box-shadow: 5px 5px rgba(84,90,51,0.8);
+            }
+            
+        </style>
+    
+    
+    </head>
+    <body>
+        <header>
+            <!--Use of Class-->
+            <nav class="navigation-bar">
+                <a href="home.html"><img class="logo" src="img/guavaSmall.png" alt="Spider of the Embodied Guava Logo"/></a>
+                <a href="home.html" class="active" title="Home">Home</a>
+                <a href="about.html" title="About"> About </a>
+                <a href="tour.html" title="Tour Dates"> Tour Dates </a>
+                <a href="photos.html" title="Photos"> Photos</a>
+                <a href="contact.html" title="Contact"> Contact</a>
+                <a href ="crossReference.html%20" title="Cross Reference"> Cross Ref </a>
+                <!-- Use of span,System date to go in header -->
+                <span>
+                    <script>
+                            var date = new Date();
+                            document.write(date.toDateString());
+                    </script>
+                </span>
+            </nav>
+            
+        </header>
+        <section>
+        
+            <h1 style="color: #2f3031; text-align: center;">Spider of the Embodied Guava</h1>
+            <p>We are happy to anounce the release of our new EP <b>Bodies</b>. <br /> Check out our new video for the first track 'The Hair':
+            </p>
+            <object width="560" height="315" data="https://www.youtube.com/embed/0tbpr4ibPeU"></object>
+            
+
+        </section>
+        <footer>
+            <!--Use of Id-->
+            <div id="social">
+                <div id ="copyright"> 
+                    Spider of the Embodied Guava &#169; 2018 
+                </div>
+                
+                <div id="icons">
+                    <a href="#"><img src="img/fb_icon.png" alt="facebook icon" width="30" height="30"/></a>
+                    <a href="https://www.youtube.com/channel/UC2iFnsFxdD0d4XimduqSgiQ"><img src="img/youtube_icon.png" alt="youtube icon" width="30" height="30"/></a>
+                    <a href="#"><img src="img/twitter_icon.png" alt="twitter" width="30" height="30"/></a>
+                </div>
+                
+                <div id ="updated"> 
+                    Last updated January 2018 
+                </div>
+        
+            </div>
+
+        </footer>
+    
+    </body>
+
+</html>
