@@ -4,7 +4,9 @@ Project for HTML, CSS &amp; JavaScript
 Author: Sophie Stroink
 Date: January 12, 2018
 
-/******************/
+******************
+
+
 Spider of the Emboided Guava - Band Website
 
 1. index.html - Start here. This is the landing page which allows the user to enter the site
@@ -26,7 +28,8 @@ for name length and message length in formValidate.js. It can be accessed throug
 7. crossReference.html - this page is required for marking purposes and will be removed eventually. For consistency it remains 
 accessible on the nav bar as well. 
 
-/*******************/
+*******************
 
 Known issues: 
 1. Mobiles styles for the photos.html page aren't working properly
+*******************
