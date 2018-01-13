@@ -104,7 +104,7 @@
 								    <dd>The tour page features links to the venue websites<a href="tour.html"> Link </a></dd><br />
 							
 								    <li><dt>Use of hotspots, image maps or bookmarks to skip to a location on a given page, as well as to another page on your site and to an external related web site(s):</dt></li>
-								    <dd>At the top left of the navigation bar, the guava logo links to home page. At the footer of each page the "youtube" icon links to the bands youtube page.Go to "view source" on any page to see these in the code.<a href="home.html"> Link </a></dd><br />
+								    <dd>At the top left of the navigation bar, the guava logo links to home page. At the footer of each page the "youtube" icon links to the bands youtube page.Go to "view source" on any page to see these in the code<a href="home.html"> Link.</a>In the <a href="about.html">about page</a> there is a link to a specific page on the site.</dd><br />
 							
 								    <li><dt>Insert inline images and line breaks:</dt></li>
 								    <dd>The <a href="photos.html">"photos"</a>and <a href="about.html">"about"</a> pages feature inline images and the "about" page also features line breaks. Go to "view source" on the page to see these in the code. </dd><br />
@@ -183,7 +183,7 @@
                             <ol type="1">
                                 <dl>
                                     <li><dt>Use of appropriate form elements including some of the new HTML5 form elements:</dt></li>
-								    <dd>See new HTML5 element styles are seen throughout the form <a href="contact.html"> code </a></dd><br />
+								    <dd>New HTML5 element styles are seen throughout the form <a href="contact.html"> code </a></dd><br />
 								
 								    <li><dt>Apply appropriate styles to Web Forms:</dt></li>
 								    <dd>See the <a href="css/formStyles.css"> form styles </a></dd><br />
