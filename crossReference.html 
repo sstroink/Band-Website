@@ -10,7 +10,7 @@
 
         Filename:         crossReference.htm
         Supporting files: guavaSmall.png, crossReference.css, fb_icon.png, twitter_icon.png,
-        youtube_icon.png
+        youtube_icon.png, styles.css
         -->
         <meta charset="UTF-8" />
         <meta name="author" content="Spider of the Embodied Guava" />
@@ -28,7 +28,7 @@
     <body>
         <header>
             <nav class="navigation-bar">
-                <a href="home"><img class="logo" src="img/guavaSmall.png" alt="Spider of the Embodied Guava Logo"/></a>
+                <a href="home.html"><img class="logo" src="img/guavaSmall.png" alt="Spider of the Embodied Guava Logo"/></a>
                 <a href="home.html" title="Home">Home</a>
                 <a href="about.html" title="About"> About </a>
                 <a href="tour.html" title="Tour Dates"> Tour Dates </a>
