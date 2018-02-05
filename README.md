@@ -5,7 +5,7 @@ Author: Sophie Stroink
 Date: January 12, 2018
 
 ******************
-
+<h3> This website is not live but you can check it out <a href="https://rawgit.com/sstroink/Band-Website/master/index.html">here</a></h3>
 
 Spider of the Emboided Guava - Band Website
 
